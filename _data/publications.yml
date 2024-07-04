@@ -7,5 +7,5 @@ main:
     pdf: https://proceedings.neurips.cc/paper_files/paper/2023/file/42c40aff7814e9796266e12053b1c610-Paper-Conference.pdf
     code: https://github.com/for-ai/portability/tree/main
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    # image: ./assets/img/teaser_porability.png
+    image: ./assets/img/teaser_portability.png
     notes: Poster Presentation
