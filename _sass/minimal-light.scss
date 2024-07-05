@@ -450,19 +450,16 @@ hr {
 }
 
 footer {
-  width: 20%; // Changed from 232px to 20% of the wrapper width
-  float: left;
-  position: fixed;
-  bottom: 30px;
-  -webkit-font-smoothing: subpixel-antialiased;
-  text-align: center;
+  width:232px;
+  float:left;
+  position:fixed;
+  bottom:30px;
+  -webkit-font-smoothing:subpixel-antialiased;
+  text-align:center;
 }
 
 @media print, screen and (max-width: 960px) {
-  .wrapper {
-    width: 95%; // Increased from auto to 95% for slightly larger content area on smaller screens
-  }
-  
+
   .pub-row {
   display: flex; 
   align-items: center;}
@@ -480,11 +477,14 @@ footer {
   }
 
   header {
-    padding-right:0px;
+    padding-right:320px;
   }
 
   section {
-    padding: 20px 5%; // Added horizontal padding
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
   }
 
   header a small {
@@ -543,7 +543,7 @@ footer {
     align-items: center;}
 
   body {
-    padding:10px;
+    padding:15px;
   }
 
   header ul {
