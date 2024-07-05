@@ -25,10 +25,10 @@ main:
 
   - title: The Grand Illusion: The Myth of Software Portability and Implications for ML Progress.
     authors_short: Fraser Mince*, <strong>Dzung Dinh*</strong>, Jonas Kgomo, Neil Thompson, Sara Hooker (*Equal contribution)
-    conference_short: NeurIPS 2023
+    conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2023.
     pdf: https://proceedings.neurips.cc/paper_files/paper/2023/file/42c40aff7814e9796266e12053b1c610-Paper-Conference.pdf
     code: https://github.com/for-ai/portability/tree/main
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    # image: ./assets/img/teaser_portability.png
+    image: ./assets/img/teaser_portability.png
     notes: Poster Presentation
