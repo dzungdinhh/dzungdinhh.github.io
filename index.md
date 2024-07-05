@@ -28,4 +28,4 @@ Previously, I have also been an intern at [UIUC (CSL)](https://www.google.com/ur
 
 
 {% include_relative _includes/publications.md %}
-{% include_relative _includes/services.md %}
+<!-- {% include_relative _includes/services.md %} -->
