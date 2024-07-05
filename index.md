@@ -6,7 +6,7 @@ layout: homepage
 
 I am a Ph.D. student in Computer Science at UNC-Chapel Hill, focusing on machine learning and computer vision.
 
-I received my B.S. in Computer Science from Dickinson College. I have worked with Prof. [John MacCormick](https://www.dickinson.edu/johnmaccormick) on various projects in object detection and computer graphics.
+I received my B.S. in Computer Science with a minor in Mathematics from Dickinson College. I have worked with Prof. [John MacCormick](https://www.dickinson.edu/johnmaccormick) on various projects in object detection and computer graphics.
 
 Previously, I have also been an intern at [UIUC (CSL)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj3tPnMnI2HAxV0sFYBHTMuAWEQFnoECBUQAQ&url=https%3A%2F%2Fcsl.illinois.edu%2F&usg=AOvVaw0a-D2sSwd5gmnFZF-nLhNW&opi=89978449), and I was a community researcher at [Cohere For AI](https://cohere.com/research).
 
@@ -26,6 +26,6 @@ Previously, I have also been an intern at [UIUC (CSL)](https://www.google.com/ur
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
-{% include_relative _includes/publications.md %}
 
+{% include_relative _includes/publications.md %}
 {% include_relative _includes/services.md %}
