@@ -11,8 +11,8 @@ I received my B.S. in Computer Science with a minor in Mathematics from Dickinso
 Previously, I have also been an intern at [UIUC (CSL)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj3tPnMnI2HAxV0sFYBHTMuAWEQFnoECBUQAQ&url=https%3A%2F%2Fcsl.illinois.edu%2F&usg=AOvVaw0a-D2sSwd5gmnFZF-nLhNW&opi=89978449), and I was a community researcher at [Cohere For AI](https://cohere.com/research).
 
 ## Education
-- 2024 - Present: Ph.D. in Computer Science, The University of North Carolina at Chapel Hill, USA
-- 2020 - 2024: B.S. in Computer Science, Dickinson College, USA
+- 2024 - Present: Ph.D. in Computer Science, [The University of North Carolina at Chapel Hill](https://www.unc.edu/), USA
+- 2020 - 2024: B.S. in Computer Science, [Dickinson College](https://www.dickinson.edu/), USA
 
 <!-- ## Research Interests
 
