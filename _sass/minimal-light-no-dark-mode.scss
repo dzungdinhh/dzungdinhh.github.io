@@ -354,7 +354,8 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  // width:650px;
+  width: calc(100% - 40px);
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
