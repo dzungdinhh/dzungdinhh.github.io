@@ -232,10 +232,17 @@ a:hover small {
   color:#777;
 }
 
+// .wrapper {
+//   width:960zpx;
+//   margin:0 auto;
+// }
 .wrapper {
-  width:1200px;
-  margin:0 auto;
+  width: 100%; /* Change from 960px to 100% to utilize full width */
+  max-width: 1200px; /* Optional: Set a maximum width to prevent overly large content */
+  margin: 0 auto; /* Center the content */
+  padding: 0 20px; /* Optional: Add padding for better spacing */
 }
+
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -282,15 +289,23 @@ img {
   max-width:100%;
 }
 
-header {
-  width:300px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
-  text-align:center
-}
+// header {
+//   width:232px;
+//   float:left;
+//   position:fixed;
+//   -webkit-font-smoothing:subpixel-antialiased;
+//   padding-top:4.0em;
+//   text-align:center
+// }
 
+header {
+  width: calc(100% - 40px); /* Adjust width to fit within the new wrapper padding */
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding-top: 4.0em;
+  text-align: center;
+}
 
 
 header ul {
@@ -352,11 +367,17 @@ header ul a strong {
   color:#222;
 }
 
+// section {
+//   width:650px;
+//   float:right;
+//   padding-top:4.0em;
+//   padding-bottom:50px;
+// }
 section {
-  width:850px;
-  float:right;
-  padding-top:4.0em;
-  padding-bottom:50px;
+  width: calc(100% - 40px); /* Adjust width to fit within the new wrapper padding */
+  float: right;
+  padding-top: 4.0em;
+  padding-bottom: 50px;
 }
 
 small {
@@ -371,7 +392,7 @@ hr {
 }
 
 footer {
-  width:300px;
+  width:232px;
   float:left;
   position:fixed;
   bottom:30px;
@@ -379,7 +400,7 @@ footer {
   text-align:center;
 }
 
-@media print, screen and (max-width: 1200px) {
+@media print, screen and (max-width: 960px) {
 
   .pub-row {
   display: flex; 
@@ -434,7 +455,7 @@ footer {
   
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 960px) {
   body {
     word-wrap:break-word;
     padding:15px;
