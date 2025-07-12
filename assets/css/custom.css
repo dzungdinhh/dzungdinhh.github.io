@@ -1,0 +1,39 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 2rem auto;
+    width: 100%;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header {
+    float: none;
+    position: static;
+    width: 100%;
+    padding-top: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section {
+    float: none;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+footer {
+    float: none;
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
