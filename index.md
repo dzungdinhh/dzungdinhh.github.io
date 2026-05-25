@@ -3,9 +3,9 @@ layout: homepage
 ---
 
 <div class="intro-section">
-  <div class="intro-copy">
-    <h1 class="intro-name">{{ site.title }}</h1>
+  <h1 class="intro-name">{{ site.title }}</h1>
 
+  <div class="intro-copy">
     <p>I am a Ph.D. student in Computer Science at UNC-Chapel Hill, working closely with <a href="https://scholar.google.com/citations?user=CqH_t6MAAAAJ&hl=en">Prof. Junier Oliva</a> in the <a href="https://sites.google.com/cs.unc.edu/lupalab/projects">LUPA Lab</a>. For Summer 2026, I am also joining <a href="https://www.hitachi.com/en-us/">Hitachi America, Ltd.</a>'s Financial Innovation Lab as a Research Intern. My research focuses on machine learning methods for reliable prediction and efficient information acquisition, with applications in active feature acquisition, longitudinal data, and trustworthy ML for scientific discovery.</p>
 
     <p>I received my B.S. in Computer Science with a minor in Mathematics from Dickinson College, where I worked with <a href="https://www.dickinson.edu/johnmaccormick">Prof. John MacCormick</a> on object detection and computer graphics projects. Previously, I was an intern at the <a href="https://csl.illinois.edu/">UIUC Coordinated Science Laboratory</a> and a community researcher at <a href="https://cohere.com/research">Cohere For AI</a>.</p>

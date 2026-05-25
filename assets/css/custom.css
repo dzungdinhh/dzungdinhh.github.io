@@ -6,8 +6,8 @@ body {
 
 .wrapper {
   max-width: 980px;
-  width: min(100% - 32px, 980px);
-  margin: 40px auto;
+  width: min(100% - clamp(24px, 6vw, 48px), 980px);
+  margin: clamp(24px, 4vw, 40px) auto;
   padding: 0;
 }
 
@@ -21,9 +21,10 @@ header {
 
 .intro-name {
   color: #1f2328;
-  font-size: 2.45rem;
+  font-size: clamp(2rem, 4vw, 2.55rem);
+  grid-area: name;
   line-height: 1.08;
-  margin: 0 0 20px;
+  margin: 0 0 4px;
   text-align: center;
 }
 
@@ -61,25 +62,33 @@ section p {
 
 .intro-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 230px;
-  gap: 38px;
-  align-items: start;
-  margin-top: 10px;
+  grid-template-areas:
+    "name photo"
+    "copy photo";
+  grid-template-columns: minmax(0, 1fr) clamp(190px, 23vw, 230px);
+  column-gap: clamp(24px, 4vw, 42px);
+  row-gap: 14px;
+  align-items: center;
+  margin-top: 4px;
 }
 
 .intro-copy {
+  grid-area: copy;
   min-width: 0;
 }
 
 .intro-photo {
-  margin: 62px 0 0;
-  width: 230px;
+  align-self: center;
+  grid-area: photo;
+  justify-self: center;
+  margin: 56px 0 0;
+  width: min(100%, 230px);
   text-align: center;
 }
 
 .intro-photo img {
   display: block;
-  width: 230px;
+  width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
@@ -297,10 +306,21 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 860px) and (min-width: 641px) {
+  .intro-section {
+    grid-template-columns: minmax(0, 1fr) clamp(170px, 26vw, 210px);
+    column-gap: clamp(20px, 3.5vw, 32px);
+  }
+
+  .intro-photo {
+    width: min(100%, 210px);
+  }
+}
+
+@media (max-width: 640px) {
   .wrapper {
     width: min(100% - 24px, 980px);
-    margin: 22px auto;
+    margin: 20px auto;
   }
 
   header {
@@ -308,8 +328,7 @@ footer {
   }
 
   .intro-name {
-    font-size: 2rem;
-    margin-bottom: 16px;
+    margin-bottom: 0;
   }
 
   section h2 {
@@ -325,17 +344,18 @@ footer {
   }
 
   .intro-section {
+    grid-template-areas:
+      "name"
+      "photo"
+      "copy";
     grid-template-columns: 1fr;
     gap: 18px;
   }
 
   .intro-photo {
-    width: min(100%, 260px);
-    margin: 2px auto 0;
-  }
-
-  .intro-photo img {
-    width: 100%;
+    justify-self: center;
+    width: min(68vw, 230px);
+    margin: 0 auto;
   }
 
   .pub-row {
