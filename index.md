@@ -2,11 +2,36 @@
 layout: homepage
 ---
 
-## About Me
+<div class="intro-section">
+  <div class="intro-copy">
+    <h1 class="intro-name">{{ site.title }}</h1>
 
-I am a 3rd year Ph.D. student in Computer Science at UNC-Chapel Hill, working closely with [Prof. Junier Oliva](https://scholar.google.com/citations?user=CqH_t6MAAAAJ&hl=en) in the [LUPA Lab](https://sites.google.com/cs.unc.edu/lupalab/projects). For Summer 2026, I am also joining [Hitachi America, Ltd.](https://www.hitachi.com/en-us/)'s Financial Innovation Lab as a Research Intern. My research focuses on machine learning methods for reliable prediction and efficient information acquisition, with applications in active feature acquisition, longitudinal data, and trustworthy ML for scientific discovery.
+    <p>I am a Ph.D. student in Computer Science at UNC-Chapel Hill, working closely with <a href="https://scholar.google.com/citations?user=CqH_t6MAAAAJ&hl=en">Prof. Junier Oliva</a> in the <a href="https://sites.google.com/cs.unc.edu/lupalab/projects">LUPA Lab</a>. For Summer 2026, I am also joining <a href="https://www.hitachi.com/en-us/">Hitachi America, Ltd.</a>'s Financial Innovation Lab as a Research Intern. My research focuses on machine learning methods for reliable prediction and efficient information acquisition, with applications in active feature acquisition, longitudinal data, and trustworthy ML for scientific discovery.</p>
 
-I received my B.S. in Computer Science with a minor in Mathematics from Dickinson College, where I worked with [Prof. John MacCormick](https://www.dickinson.edu/johnmaccormick) on object detection and computer graphics projects. Previously, I was an intern at the [UIUC Coordinated Science Laboratory](https://csl.illinois.edu/) and a community researcher at [Cohere For AI](https://cohere.com/research).
+    <p>I received my B.S. in Computer Science with a minor in Mathematics from Dickinson College, where I worked with <a href="https://www.dickinson.edu/johnmaccormick">Prof. John MacCormick</a> on object detection and computer graphics projects. Previously, I was an intern at the <a href="https://csl.illinois.edu/">UIUC Coordinated Science Laboratory</a> and a community researcher at <a href="https://cohere.com/research">Cohere For AI</a>.</p>
+  </div>
+
+  <figure class="intro-photo">
+    <img src="{{ site.avatar }}" alt="{{ site.title }} profile photo">
+    <figcaption class="profile-card">
+      {% if site.email %}
+      <div class="profile-email">{{ site.email }}</div>
+      {% endif %}
+      <div class="profile-links" aria-label="Profile links">
+        {% if site.google_scholar %}
+        <a href="{{ site.google_scholar }}" aria-label="Google Scholar">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+        {% endif %}
+        {% if site.linkedin %}
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        {% endif %}
+      </div>
+    </figcaption>
+  </figure>
+</div>
 
 ## Education
 - 2024-Present: Ph.D. in Computer Science, [The University of North Carolina at Chapel Hill](https://www.unc.edu/)

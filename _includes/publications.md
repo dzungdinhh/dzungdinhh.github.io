@@ -1,4 +1,4 @@
-<h2 id="publications" class="publications-heading">Publications <span class="publication-footnote">(* denotes equal contribution)</span></h2>
+<h2 id="publications" class="publications-heading"><span>Publications</span> <span class="publication-footnote">(* denotes equal contribution)</span></h2>
 
 <div class="publications">
 <ol class="bibliography publication-list">
