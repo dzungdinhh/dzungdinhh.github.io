@@ -102,10 +102,17 @@ footer {
   margin-top: 20px;
 }
 
+.publications-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .publication-footnote {
   color: #57606a;
-  font-size: 0.9rem;
-  margin: -4px 0 16px;
+  font-size: 0.85rem;
+  font-weight: 400;
 }
 
 .publications ol.bibliography {

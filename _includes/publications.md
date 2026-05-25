@@ -1,7 +1,6 @@
-<h2 id="publications">Publications</h2>
+<h2 id="publications" class="publications-heading">Publications <span class="publication-footnote">(* denotes equal contribution)</span></h2>
 
 <div class="publications">
-<p class="publication-footnote">*Equal contribution</p>
 <ol class="bibliography publication-list">
 
 {% for link in site.data.publications.main %}
