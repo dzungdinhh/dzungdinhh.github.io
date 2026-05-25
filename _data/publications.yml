@@ -1,11 +1,40 @@
 main:
 
+  - title: "Information Templates: A New Paradigm for Intelligent Active Feature Acquisition"
+    authors: Hung-Tien Huang*, <strong>Dzung Dinh*</strong>, Junier B. Oliva
+    conference_short: Preprint
+    conference: arXiv preprint.
+    pdf: https://arxiv.org/pdf/2508.18380
+    image: ./assets/img/teaser_information_templates.png
+
+  - title: "NOCTA: Non-Greedy Objective Cost-Tradeoff Acquisition for Longitudinal Data"
+    authors: <strong>Dzung Dinh*</strong>, Boqi Chen*, Yunni Qu, Marc Niethammer, Junier Oliva
+    conference_short: Preprint
+    conference: arXiv preprint.
+    pdf: https://arxiv.org/pdf/2507.12412
+    image: ./assets/img/teaser_nocta.png
+
+  - title: "Relaxed Efficient Acquisition of Context and Temporal Features"
+    authors: Yunni Qu, <strong>Dzung Dinh</strong>, Grant King, Whitney R. Ringwald, Bing Cai Kok, Kathleen Gates, Aidan G. C. Wright, Junier Oliva
+    conference_short: ACM BCB
+    conference: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics <strong>(ACM BCB)</strong>.
+    pdf: https://arxiv.org/pdf/2603.11370
+    image: ./assets/img/teaser_react.png
+    notes: Poster Presentation
+
+  - title: "Reliable OOD Virtual Screening with Extrapolatory Pseudo-Label Matching"
+    authors: Yunni Qu, Bhargav Vaduri, Karthikeya Jatoth, James Wellnitz, <strong>Dzung Dinh</strong>, Seth D Veenbaas, Jonathan Chapman, Alexander Tropsha, Junier Oliva
+    conference_short: ACM BCB
+    conference: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics <strong>(ACM BCB)</strong>.
+    pdf: https://arxiv.org/pdf/2406.01825
+    image: ./assets/img/teaser_explor.png
+    notes: Poster Presentation
+
   - title: "The Grand Illusion: The Myth of Software Portability and Implications for ML Progress"
-    authors: Fraser Mince*, <strong>Dzung Dinh*</strong>, Jonas Kgomo, Neil Thompson, Sara Hooker (*Equal contribution)
+    authors: Fraser Mince*, <strong>Dzung Dinh*</strong>, Jonas Kgomo, Neil Thompson, Sara Hooker
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2023.
     pdf: https://proceedings.neurips.cc/paper_files/paper/2023/file/42c40aff7814e9796266e12053b1c610-Paper-Conference.pdf
     code: https://github.com/for-ai/portability/tree/main
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_portability.png
     notes: Poster Presentation
