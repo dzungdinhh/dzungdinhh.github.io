@@ -6,9 +6,9 @@ layout: homepage
   <h1 class="intro-name">{{ site.title }}</h1>
 
   <div class="intro-copy">
-    <p>I am a Ph.D. student in Computer Science at UNC-Chapel Hill, working closely with <a href="https://scholar.google.com/citations?user=CqH_t6MAAAAJ&hl=en">Prof. Junier Oliva</a> in the <a href="https://sites.google.com/cs.unc.edu/lupalab/projects">LUPA Lab</a>. For Summer 2026, I am also joining <a href="https://www.hitachi.com/en-us/">Hitachi America, Ltd.</a>'s Financial Innovation Lab as a Research Intern. My research focuses on machine learning methods for reliable prediction and efficient information acquisition, with applications in active feature acquisition, longitudinal data, and trustworthy ML for scientific discovery.</p>
+    <p>I am a Ph.D. student in Computer Science at UNC-Chapel Hill, working closely with <a href="https://scholar.google.com/citations?user=CqH_t6MAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Junier Oliva</a> in the <a href="https://sites.google.com/cs.unc.edu/lupalab/projects" target="_blank" rel="noopener">LUPA Lab</a>. For Summer 2026, I am also joining <a href="https://www.hitachi.com/en-us/" target="_blank" rel="noopener">Hitachi America, Ltd.</a>'s Financial Innovation Lab as a Research Intern. My research focuses on machine learning methods for reliable prediction and efficient information acquisition, with applications in active feature acquisition, longitudinal data, and trustworthy ML for scientific discovery.</p>
 
-    <p>I received my B.S. in Computer Science with a minor in Mathematics from Dickinson College, where I worked with <a href="https://www.dickinson.edu/johnmaccormick">Prof. John MacCormick</a> on object detection and computer graphics projects. Previously, I was an intern at the <a href="https://csl.illinois.edu/">UIUC Coordinated Science Laboratory</a> and a community researcher at <a href="https://cohere.com/research">Cohere For AI</a>.</p>
+    <p>I received my B.S. in Computer Science with a minor in Mathematics from Dickinson College, where I worked with <a href="https://www.dickinson.edu/johnmaccormick" target="_blank" rel="noopener">Prof. John MacCormick</a> on object detection and computer graphics projects. Previously, I was an intern at the <a href="https://csl.illinois.edu/" target="_blank" rel="noopener">UIUC Coordinated Science Laboratory</a> and a community researcher at <a href="https://cohere.com/research" target="_blank" rel="noopener">Cohere For AI</a>.</p>
   </div>
 
   <figure class="intro-photo">
@@ -19,12 +19,12 @@ layout: homepage
       {% endif %}
       <div class="profile-links" aria-label="Profile links">
         {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}" aria-label="Google Scholar">
+        <a href="{{ site.google_scholar }}" aria-label="Google Scholar" target="_blank" rel="noopener">
           <i class="ai ai-google-scholar"></i>
         </a>
         {% endif %}
         {% if site.linkedin %}
-        <a href="{{ site.linkedin }}" aria-label="LinkedIn">
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
@@ -34,9 +34,9 @@ layout: homepage
 </div>
 
 ## Education
-- 2024-Present: Ph.D. in Computer Science, [The University of North Carolina at Chapel Hill](https://www.unc.edu/)
-- 2024-2026: M.S. in Computer Science, en route to Ph.D., [The University of North Carolina at Chapel Hill](https://www.unc.edu/)
-- 2020-2024: B.S. in Computer Science, [Dickinson College](https://www.dickinson.edu/)
+- 2024-Present: Ph.D. in Computer Science, <a href="https://www.unc.edu/" target="_blank" rel="noopener">The University of North Carolina at Chapel Hill</a>
+- 2024-2026: M.S. in Computer Science, en route to Ph.D., <a href="https://www.unc.edu/" target="_blank" rel="noopener">The University of North Carolina at Chapel Hill</a>
+- 2020-2024: B.S. in Computer Science, <a href="https://www.dickinson.edu/" target="_blank" rel="noopener">Dickinson College</a>
 
 <!-- ## Research Interests
 
