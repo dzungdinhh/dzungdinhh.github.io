@@ -18,16 +18,16 @@ main:
   - title: "Relaxed Efficient Acquisition of Context and Temporal Features"
     authors: Yunni Qu, <strong>Dzung Dinh</strong>, Grant King, Whitney R. Ringwald, Bing Cai Kok, Kathleen Gates, Aidan G. C. Wright, Junier Oliva
     conference_short: ACM BCB
-    conference: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics <strong>(ACM BCB)</strong>.
-    pdf: https://arxiv.org/pdf/2603.11370
+    conference: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics <strong>(ACM BCB)</strong>, 2026.
+    pdf: https://dl.acm.org/doi/epdf/10.1145/3807503.3819475
     image: ./assets/img/teaser_react.png
     notes: Poster Presentation
 
   - title: "Reliable OOD Virtual Screening with Extrapolatory Pseudo-Label Matching"
     authors: Yunni Qu, Bhargav Vaduri, Karthikeya Jatoth, James Wellnitz, <strong>Dzung Dinh</strong>, Seth D Veenbaas, Jonathan Chapman, Alexander Tropsha, Junier Oliva
     conference_short: ACM BCB
-    conference: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics <strong>(ACM BCB)</strong>.
-    pdf: https://arxiv.org/pdf/2406.01825
+    conference: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics <strong>(ACM BCB)</strong>, 2026.
+    pdf: https://dl.acm.org/doi/epdf/10.1145/3807503.3819476
     image: ./assets/img/teaser_explor.png
     notes: Poster Presentation
 
@@ -36,6 +36,5 @@ main:
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2023.
     pdf: https://proceedings.neurips.cc/paper_files/paper/2023/file/42c40aff7814e9796266e12053b1c610-Paper-Conference.pdf
-    code: https://github.com/for-ai/portability/tree/main
     image: ./assets/img/teaser_portability.png
     notes: Poster Presentation
