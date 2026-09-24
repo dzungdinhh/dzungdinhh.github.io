@@ -1,18 +1,19 @@
 main:
 
+  - title: "Contrastive Nonmyopic Objective Cost-Tradeoff Acquisition for Longitudinal Data"
+    authors: <strong>Dzung Dinh*</strong>, Boqi Chen*, Yunni Qu, Marc Niethammer, Junier Oliva
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
+    image: ./assets/img/teaser_cape.png
+    image_fit: contain
+    notes: Poster Presentation
+
   - title: "Information Templates: A New Paradigm for Intelligent Active Feature Acquisition"
     authors: Hung-Tien Huang*, <strong>Dzung Dinh*</strong>, Junier B. Oliva
-    conference_short: Preprint
-    conference: arXiv preprint.
-    pdf: https://arxiv.org/pdf/2508.18380
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
     image: ./assets/img/teaser_information_templates.png
-
-  - title: "NOCTA: Non-Greedy Objective Cost-Tradeoff Acquisition for Longitudinal Data"
-    authors: <strong>Dzung Dinh*</strong>, Boqi Chen*, Yunni Qu, Marc Niethammer, Junier Oliva
-    conference_short: Preprint
-    conference: arXiv preprint.
-    pdf: https://arxiv.org/pdf/2507.12412
-    image: ./assets/img/teaser_nocta.png
+    notes: Poster Presentation
 
   - title: "Relaxed Efficient Acquisition of Context and Temporal Features"
     authors: Yunni Qu, <strong>Dzung Dinh</strong>, Grant King, Whitney R. Ringwald, Bing Cai Kok, Kathleen Gates, Aidan G. C. Wright, Junier Oliva

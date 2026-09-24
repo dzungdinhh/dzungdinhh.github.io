@@ -9,7 +9,7 @@
 <article class="pub-row">
   <div class="pub-media">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser" alt="{{ link.title }} teaser">
+    <img src="{{ link.image }}" class="teaser{% if link.image_fit == 'contain' %} teaser-contain{% endif %}" alt="{{ link.title }} teaser">
     {% endif %}
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
